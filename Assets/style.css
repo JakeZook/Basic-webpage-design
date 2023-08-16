@@ -1,0 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: darkgreen;
+  border-bottom: 10px solid #630063;
+}
