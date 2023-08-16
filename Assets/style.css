@@ -1,7 +1,7 @@
 * {
-  box-sizing: border-box;
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 a {
@@ -20,14 +20,14 @@ ul > li {
 
 header {
   background-color: rgb(30, 69, 30);
+  padding-bottom: 5px;
   border-bottom: 10px solid #a9a07b;
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 35px;
   color: white;
-  position: relative;
-  left: 50px;
+  margin-left: 50px;
 }
 
 h2 {
@@ -39,10 +39,20 @@ h2 {
 
 main {
   background-color: white;
+  border-bottom: 10px solid rgb(30, 69, 30);
+}
+
+.contact {
+  background-color: #a9a07b;
+  padding-bottom: 25px;
 }
 
 footer {
   background-color: rgb(30, 69, 30);
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
 }
 
 #absolute-section {
@@ -51,9 +61,13 @@ footer {
 
 #nav-bar {
   position: absolute;
-  top: 10px;
-  right: 25px;
+  top: 8px;
+  right: 50px;
   font-size: 25px;
+}
+
+#nav-bar :hover {
+  color: black;
 }
 
 #coming-soon {
@@ -69,4 +83,31 @@ footer {
   color: black;
   text-align: center;
   padding: 25px 0px;
+}
+
+form {
+  display: block;
+  margin: 10px 500px;
+  text-align: center;
+  border: 10px solid rgb(30, 69, 30);
+  border-radius: 25px;
+}
+
+input[type="text"] {
+  margin: 12px 0px;
+  color: black;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+input[type="submit"] {
+  margin-bottom: 12px;
+  background-color: rgb(30, 69, 30);
+  color: white;
+  font-size: 20px;
+  border-style: outset;
+  border-color: black;
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
 }
